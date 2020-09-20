@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Trach your job search process the right way",
   "main": "server.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {    
     "start": "node server.js",
     "server": "nodemon server.js",    
