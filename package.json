@@ -1,7 +1,7 @@
 {
-  "name": "get-hired",
+  "name": "Basic Express-React setup",
   "version": "0.0.1",
-  "description": "Trach your job search process the right way",
+  "description": "",
   "main": "server.js",
   "engines": {
     "node": "12.x"
