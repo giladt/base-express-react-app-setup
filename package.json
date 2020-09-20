@@ -1,0 +1,23 @@
+{
+  "name": "get-hired",
+  "version": "0.0.1",
+  "description": "Trach your job search process the right way",
+  "main": "server.js",
+  "scripts": {    
+    "start": "node server.js",
+    "server": "nodemon server.js",    
+    "client": "npm start --prefix client",    
+    "client-install": "npm install --prefix client",    
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Gilad Tsabar",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
