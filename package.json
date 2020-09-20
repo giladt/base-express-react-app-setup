@@ -1,5 +1,5 @@
 {
-  "name": "Basic-Express-React-setup",
+  "name": "node-basic-server",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
@@ -12,7 +12,7 @@
     "client": "npm start --prefix client",
     "client-install": "npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "author": "Gilad Tsabar",
   "license": "ISC",
